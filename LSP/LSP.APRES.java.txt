@@ -1,0 +1,3 @@
+public class Oiseau { /* caractéristiques communes */ }
+public class OiseauVolant extends Oiseau { public void voler() { } }
+public class Autruche extends Oiseau { /* Ne vole pas, ne casse rien */ }

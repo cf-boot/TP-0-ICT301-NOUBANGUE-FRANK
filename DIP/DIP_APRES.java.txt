@@ -1,0 +1,5 @@
+interface ClavierInterface { }
+public class Ordinateur {
+    private ClavierInterface clavier;
+    public Ordinateur(ClavierInterface c) { this.clavier = c; }
+}

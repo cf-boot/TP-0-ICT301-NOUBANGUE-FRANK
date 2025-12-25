@@ -1,0 +1,5 @@
+interface ImprimanteSimple { void imprimer(); }
+interface Scanner { void scanner(); }
+class VieilleImprimante implements ImprimanteSimple {
+    public void imprimer() { /* OK */ }
+}

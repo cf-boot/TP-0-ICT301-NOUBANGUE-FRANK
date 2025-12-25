@@ -1,0 +1,4 @@
+public class Employe {
+    public void calculerSalaire() { /* logique */ }
+    public void imprimerFichePaie() { /* Cette classe en fait trop */ }
+}

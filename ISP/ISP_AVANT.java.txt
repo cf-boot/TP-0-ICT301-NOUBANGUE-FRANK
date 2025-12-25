@@ -1,0 +1,6 @@
+interface Imprimante { void imprimer(); void scanner(); void faxer(); }
+class VieilleImprimante implements Imprimante {
+    public void imprimer() { /* OK */ }
+    public void scanner() { /* Inutile mais obligé de l'écrire */ }
+    public void faxer() { /* Inutile */ }
+}

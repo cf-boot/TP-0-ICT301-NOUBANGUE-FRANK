@@ -1,0 +1,7 @@
+interface Forme { double aire(); }
+public class Rectangle implements Forme { 
+    public double aire() { return largeur * hauteur; } 
+}
+public class Calculateur {
+    public double calculerAire(Forme f) { return f.aire(); }
+}

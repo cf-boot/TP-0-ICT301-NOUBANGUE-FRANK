@@ -1,0 +1,6 @@
+public class Employe {
+    public void calculerSalaire() { /* logique */ }
+}
+public class PaieImprimante {
+    public void imprimerFichePaie(Employe e) { /* responsabilité unique */ }
+}

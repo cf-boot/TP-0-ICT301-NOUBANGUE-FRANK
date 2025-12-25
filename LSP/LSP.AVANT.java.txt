@@ -1,0 +1,4 @@
+public class Oiseau { public void voler() { /* ... */ } }
+public class Autruche extends Oiseau { 
+    public void voler() { throw new Error("Je ne peux pas voler"); } 
+}

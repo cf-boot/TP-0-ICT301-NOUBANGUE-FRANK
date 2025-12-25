@@ -1,0 +1,3 @@
+public class Calculateur {
+    public double calculerAire(Rectangle r) { return r.largeur * r.hauteur; }
+}
